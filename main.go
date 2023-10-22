@@ -147,17 +147,13 @@ func RunTasks(mod food.Modules, proxy string, num int) {
 		}(i)
 	}
 
-	// Wait for all goroutines to finish
 	wg.Wait()
 
 }
 
 func RunAllTasks(proxy string) {
 
-	// Create a WaitGroup to wait for goroutines to finish
 	var wg sync.WaitGroup
-
-	// Add the number of goroutines to the WaitGroup
 
 	mods := enumToStringArray()
 
@@ -169,7 +165,7 @@ func RunAllTasks(proxy string) {
 
 	for i := 0; i < num; i++ {
 		go func(i int) {
-			defer wg.Done() // Mark goroutine as done when finished
+			defer wg.Done() 
 			hex, _ := utils.GenerateRandomHexString(12)
 			numberStr := strconv.Itoa(i + 1)
 
@@ -186,10 +182,8 @@ func RunAllTasks(proxy string) {
 			modules.RunTask(task.ModName, task)
 		}(i)
 	}
-
-	// Wait for all goroutines to finish
+	
 	wg.Wait()
-
 }
 
 func enumToStringArray() []string {

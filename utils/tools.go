@@ -4,7 +4,6 @@ import (
 	"encoding/hex"
 	"fmt"
 	"math/rand"
-	"net/url"
 	"regexp"
 	"strconv"
 	"strings"
@@ -34,10 +33,6 @@ func InsertStringAtIndex(index int, original string, insert string) string {
 
 func RandomCharFromString(chars string) string {
 	return string(chars[RndInt(len(chars))])
-}
-
-func EncodeParam(s string) string {
-	return url.QueryEscape(s)
 }
 
 func RandomDomain() string {
@@ -89,13 +84,9 @@ var specials = "!@"
 func SecurePassword(_specials string) string {
 	password := ""
 
-	for i := 0; i < 4; i++ {
-		password += RandomCharFromString("abcdefghijklmnopqrstuvwxyz")
-	}
+	password += RandomString("abcdefghijklmnopqrstuvwxyz", 4)
 
-	for i := 0; i < 4; i++ {
-		password += RandomCharFromString("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-	}
+	password += RandomString("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 4)
 
 	password += RandomCharFromString("0123456789")
 
