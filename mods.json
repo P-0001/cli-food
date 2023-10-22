@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Krispy Kreme",
+        "module": "krispykreme",
+        "description": "Generates a Krispy Kreme Account With 13 Free Donuts"
+    },
+    {
+        "name": "Taco Bell",
+        "module": "tacobell",
+        "description": "Generates a Taco Bell Account With a Free Taco"
+    },
+    {
+        "name": "Panera",
+        "module": "panera",
+        "description": "Generates a Panera Account With a Free Pastry"
+    },
+    {
+        "name": "Bjs",
+        "module": "bjs",
+        "description": "Generates a Bjs Account With a Free Pizookie"
+    },
+    {
+        "name": "iHop",
+        "module": "ihop",
+        "description": "Generates a iHop Account With A Free Stack Of Pancakes"
+    },
+    {
+        "name": "Del Taco",
+        "module": "deltaco",
+        "description": "Generates a Del Taco Account With 2 Free Tacos And A Free MilkShake"
+    },
+    {
+        "name": "Dairy Queen",
+        "module": "dq",
+        "description": "Generates a Dairy Queen Account With A BOGO BLIZZARD Coupon"
+    },
+    {
+        "name": "Wendy's",
+        "module": "wendys",
+        "description": "Generates a Wendy's Account With A Free 10 Nuggets With Purchase + (~4 Other Coupons)"
+    },
+    {
+        "name": "Jimmy John's",
+        "module": "jimmyjohns",
+        "description": "Generates a Jimmy John's Account With A Free 8 Inch Sub After One Purchase"
+    },
+    {
+        "name": "Denny's",
+        "module": "dennys",
+        "description": "Generates a Denny's Account With A Free Grand Slam"
+    },
+    {
+        "name": "Mcdonald's",
+        "module": "mcdonalds",
+        "description": "Generates a Mcdonald's Account With A Free 10 Piece (Must Use App)"
+    },
+    {
+        "name": "Bojangles",
+        "module": "bojangles",
+        "description": "Generates a Bojangles Account With A Free Chicken Sandwich"
+    },
+    {
+        "name": "Chili's",
+        "module": "chilis",
+        "description": "Generates Account With 3 FOR ME Reward And FREE CHIPS & SALSA OR NON-ALCOHOLIC BEVERAGE"
+    },
+    {
+        "name": "Popeyes",
+        "module": "popeyes",
+        "description": "Generates Account With Free Regular Side Or Small Drink Or Apple Pie"
+    },
+    {
+        "name": "Whataburger",
+        "module": "whataburger",
+        "description": "Generates Account With Free Whataburger"
+    },
+    {
+        "name": "Steak 'n Shake",
+        "module": "steakandshake",
+        "description": "Generates Account With A Free Specialty MilkShake"
+    }
+]
