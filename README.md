@@ -6,4 +6,4 @@
 - you don't have to use proxies but you should
 - What they do is in mods.json but it may not be the same or work even
 - This is my first golang project so the code is not the best
-- Enjoy so free food
+- Enjoy some free food
